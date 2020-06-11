@@ -5,7 +5,6 @@
 body {
   margin: 0;
   padding: 0;
-  background: #e5e5e5;
 }
 
 h1,
@@ -63,7 +62,7 @@ a {
 
 /* Sections with text */
 .text {
-  padding: 3rem 2rem;
+  padding: 1.5rem 2rem;
 }
 
 
@@ -83,12 +82,12 @@ a {
 .section-left h3 {
   color: #035951;
   font-weight: bold;
-  margin-bottom: 1rem;
+  margin: 1rem;
 }
 
 .section-left p {
   color: #595959;
-  line-height: 44px;
+  line-height: 38px;
 }
 
 .section-left button,
@@ -135,6 +134,13 @@ a {
     text-align: left;
     align-items: flex-start;
   }
+  .section-left h3{
+    margin: 0 0 1rem 0;
+  }
+
+  .section-left p {
+    line-height: 32px;
+  }
 
   .text {
     padding: 1rem;
@@ -145,6 +151,6 @@ a {
 /* Media Query 1300px and above */
 @media (min-width: 1300px) {
   .text {
-    padding: 8rem 2rem;
+    padding: 6rem 2rem;
   }
 }
